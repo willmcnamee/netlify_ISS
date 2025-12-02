@@ -10,7 +10,6 @@ async function fetchISS() {
 
         const data = await response.json();
 
-        // Build HTML for each field
         const html = `
             <div class="data-field"><span class="field-label">Latitude:</span> ${data.latitude}</div>
             <div class="data-field"><span class="field-label">Longitude:</span> ${data.longitude}</div>
