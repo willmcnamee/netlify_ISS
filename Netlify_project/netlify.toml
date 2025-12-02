@@ -1,5 +1,0 @@
-[functions]
-  directory = "netlify/functions"
-
-[functions."*"]
-  runtime = "python3.9"
